@@ -15,3 +15,7 @@ build:
 .PHONY: watch
 watch:
 	bundle exec jekyll build --source src --destination build --watch
+
+.PHONY: dev
+dev:
+	docker-compose up -d
