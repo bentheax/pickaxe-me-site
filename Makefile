@@ -19,3 +19,10 @@ watch:
 .PHONY: dev
 dev:
 	docker-compose up -d
+
+.PHONY: sync
+sync:
+	aws s3 sync $(PWD)/build s3://pickaxe-me \
+		--acl public-read \
+		--cache-control "max-age=10" \
+		--dryrun
