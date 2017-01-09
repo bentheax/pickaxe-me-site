@@ -3,7 +3,7 @@ Resources:
     Type: "AWS::S3::Bucket"
     Properties:
       AccessControl: "BucketOwnerFullControl"
-      BucketName: "pickaxe-me"
+      BucketName: "pickaxe.me"
       WebsiteConfiguration:
         IndexDocument: "index.html"
         ErrorDocument: "404.html"
@@ -11,6 +11,7 @@ Resources:
     Type: "AWS::S3::Bucket"
     Properties:
       AccessControl: "BucketOwnerFullControl"
+      BucketName: "www.pickaxe.me"
       WebsiteConfiguration:
         RedirectAllRequestsTo:
           HostName: !Ref RootBucket
@@ -31,6 +32,7 @@ Resources:
               Forward: "none"
           TargetOriginId: "root"
           ViewerProtocolPolicy: "redirect-to-https"
+        DefaultRootObject: "/index.html"
         Enabled: true
         HttpVersion: "http2"
         Origins:

@@ -1,4 +1,4 @@
-STACK_NAME = pickaxe-me-site-distribution
+STACK_NAME = pickaxe-me-site
 
 .PHONY: create
 deploy:
@@ -22,7 +22,6 @@ dev:
 
 .PHONY: sync
 sync:
-	aws s3 sync $(PWD)/build s3://pickaxe-me \
+	aws s3 sync $(PWD)/build/ s3://pickaxe.me \
 		--acl public-read \
-		--cache-control "max-age=10" \
-		--dryrun
+		--cache-control "max-age=10"
