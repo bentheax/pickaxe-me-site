@@ -10,8 +10,7 @@ clean:
 
 .PHONY: build
 build:
-	bundle exec jekyll build --source src --destination build &&\
-		bundle exec htmlproofer build
+	bundle exec jekyll build --source src --destination build
 
 .PHONY: watch
 watch:
