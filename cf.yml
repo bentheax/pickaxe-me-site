@@ -54,7 +54,7 @@ Resources:
     Properties:
       HostedZoneName: "pickaxe.me."
       Name: "www.pickaxe.me"
-      Type: "A"
-      AliasTarget:
-        DNSName: !GetAtt WWWBucket.DomainName
-        HostedZoneId: "Z1WCIGYICN2BYD" # Hardcoded for S3 in ap-southeast-2
+      Type: "CNAME"
+      TTL: 60
+      ResourceRecords:
+        - !GetAtt WWWBucket.DomainName
