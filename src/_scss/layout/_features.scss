@@ -1,19 +1,9 @@
-/**
- *
- *  Features Section Style
- *
- *  @package gleesik_layout
- *
- **/
-
-section.features-section {
-
-  .features {
+section.skills-section {
+  .skills {
     margin-top: 80px;
   }
 
-  // Feature
-  .feature {
+  .skill {
 
     @media (max-width: 992px) {
       margin-bottom: 80px;
