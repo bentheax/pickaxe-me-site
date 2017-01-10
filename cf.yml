@@ -2,7 +2,7 @@ Resources:
   RootBucket:
     Type: "AWS::S3::Bucket"
     Properties:
-      AccessControl: "BucketOwnerFullControl"
+      AccessControl: "PublicRead"
       BucketName: "pickaxe.me"
       WebsiteConfiguration:
         IndexDocument: "index.html"
@@ -10,7 +10,7 @@ Resources:
   WWWBucket:
     Type: "AWS::S3::Bucket"
     Properties:
-      AccessControl: "BucketOwnerFullControl"
+      AccessControl: "PublicRead"
       BucketName: "www.pickaxe.me"
       WebsiteConfiguration:
         RedirectAllRequestsTo:
