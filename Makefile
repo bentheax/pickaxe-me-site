@@ -14,11 +14,10 @@ build:
 
 .PHONY: watch
 watch:
-	bundle exec jekyll build --source src --destination build --watch
-
-.PHONY: dev
-dev:
-	docker-compose up -d
+	bundle exec jekyll serve \
+		--host 192.168.21.9 \
+		--watch --incremental --livereload \
+		--source src --destination build
 
 .PHONY: sync
 sync:

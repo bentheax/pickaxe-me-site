@@ -1,25 +1,13 @@
-#
-# Sera - OnePage Jekyll Template
-# Configuration File
-#
-
 # Information for compile
 exclude: ["node_modules", "gulpfile.js", "package.json", "README.md"]
 
-#######################################################
-#######################################################
-###############   HEADER INFORMATIONS   ###############
-#######################################################
-#######################################################
-
-# This is your site title
-title: Sera - OnePage Multi-Purpose Theme
+# title: Homepage of Ben Axnick
 # Website language
-lang: en-US
+# lang: en-US
 # Header Title
-header-title: Create the <strong>Impossible</strong>
+# header-title: Create the <strong>Impossible</strong>
 # Header Tagline
-headter-tagline: We Always
+# header-tagline: We Always
 
 ####################################
 ######   CTA Header Buttons   ######
