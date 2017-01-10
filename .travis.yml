@@ -11,3 +11,5 @@ script: make build
 after_success:
   - make deploy
   - make sync
+notifications:
+  email: false
