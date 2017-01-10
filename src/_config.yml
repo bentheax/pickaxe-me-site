@@ -1,141 +1,24 @@
 # Information for compile
 exclude: ["node_modules", "gulpfile.js", "package.json", "README.md"]
 
-# title: Homepage of Ben Axnick
-# Website language
-# lang: en-US
-# Header Title
-# header-title: Create the <strong>Impossible</strong>
-# Header Tagline
-# header-tagline: We Always
-
-####################################
-######   CTA Header Buttons   ######
-####################################
-
-# Focus Buttons
-header-focus-button:
-  title: Download Now
-  url: https://themeforest.net/collections/6069390-sera
-
-# Secondary Buttons
-header-secondary-button:
-  title: Discover More
-  url: http://themeforest.net/user/gleesik
-
-#
-# If your website is placed in a separate folder on your server please modify
-# this with your folder name, by default is empty.
-# Example: Sera Demo is hosted on projects.gleesik.ro/sera-onepage
-# If I compile Sera Template and I put in /sera-onepage without modifing baseurl
-# than scripts can't be loaded corectly.
-# For this example my site url is: projects.gleesik.ro (This can be just www.example.com)
-# My folder for Demo Website is: /sera-onepage so baseurl: /sera-onepage
-#
-baseurl: 
-
-#
-# This is your email adress, contact from send here all emails from contact section
-# IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
-# To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
-#
-email: your_email@example.com
-
-# Offer Banner Link
-# Default link is a link to all Sera OnePage products
-banner-link: https://themeforest.net/collections/6069390-sera
-
 ####################################
 ######  Global Social Links   ######
 ####################################
-youtube: '#'
-pinterest: '#'
-facebook: '#'
-twitter: '#'
-google-plus: '#'
-vimeo: '#'
+youtube: 'https://www.youtube.com/user/Baxaxx'
+twitter: 'https://twitter.com/BenBaxnick'
 
-#########################
-######   Widgets   ######
-#########################
-
-#
-# About Blog Author Widget
-#
-about-widget:
-  author-avatar: avatar-02.jpg
-  author-name: John Doe
-  author-tagline: Blog Author
-  author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies nec.
-  author-social-links:
-    youtube: '#'
-    pinterest: '#'
-    facebook: '#'
-    twitter: '#'
-    google-plus: '#'
-
-# Google Map JS api
-# This is my api for this template
-key-api: AIzaSyDbnxVZQannH0GF4gtnnBFPiP9ofm2WqGs
-map-text: Sera Google Map
-map-text-location: Bucharest, Romania
-map-lat: 44.4267674
-map-lng: 26.102538399999958
-
-# Enter your Mailchimp User ID and Campaign ID
-# @TODO: Add in a link for where to find these
-mailchimp:
-  user-id: REPLACEME
-  list-id: REPLACEME
-
-####
-#
-# Hi you now use Sera - OnePage Jekyll Template created by Gleesik™
-#
-# Below are each section from the website in order from top to bottom
-# @TODO Edit each sections with your real information and each section from Sera will autocomplete with your information
-#
-####
-
-#####################################
-#############   About   #############
-#####################################
-about-title: Welcome to Sera
-about-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
-
-
-#####################################
-#############  Features  ############
-#####################################
-features-title: Features
-features-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante.
-
-#
-# Features
-#
-features:
-
-# Feature
-- title: Clean & Unique Design
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
+skills:
+- title: Ruby Developer
+  description: I have been developing Ruby for 4 years and strive to maintain best practices.
   icon: pe-7s-vector
 
-# Feature
-- title: Professional Support
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
+- title: AWS Proficient
+  description: I've built up a skillset in immutable infrastructure and a familiarity with everything that helps to build a cheap and reliable infrastructure. EC2, CloudFormation, CloudWatch Logs, ECS, ELBs, Route 53 etc.
   icon: pe-7s-help2
 
-# Feature
-- title: Pixel Perfect
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
+- title: Communicator
+  description: Worked with production managers, business strategists, development peers, and junior developers across countless projects.
   icon: pe-7s-airplay
-
-
-#####################################
-############  Portfolio  ############
-#####################################
-portfolio-title: Portfolio
-portfolio-description: Maecenas tempus nec mi et placerat. Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis.
 
 #
 # Portfolio Grid
