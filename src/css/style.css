@@ -3013,60 +3013,6 @@ blockquote:before {
   }
 }
 
-.page-loader {
-  display: block;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 1;
-  background: #f4f8f9;
-  -webkit-transition: all 0.7s ease-in-out;
-  transition: all 0.7s ease-in-out;
-  z-index: 99999999999;
-}
-
-.page-loader .load-icon {
-  display: block;
-  position: relative;
-  width: 70px;
-  height: 70px;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-.page-loader .load-icon:before, .page-loader .load-icon:after {
-  content: '';
-  display: block;
-  position: absolute;
-  background: rgba(33, 194, 248, 0.2);
-  width: 100%;
-  height: 100%;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
-}
-
-.page-loader .load-icon:before {
-  -webkit-animation: sera-loader-in .85s linear 0s alternate infinite;
-          animation: sera-loader-in .85s linear 0s alternate infinite;
-}
-
-.page-loader .load-icon:after {
-  -webkit-animation: sera-loader-out .85s linear 0s alternate infinite;
-          animation: sera-loader-out .85s linear 0s alternate infinite;
-}
-
-.page-loader.load-complete {
-  height: 0;
-  opacity: 0;
-}
-
 .go-to-top-button {
   position: fixed;
   display: -webkit-box;
