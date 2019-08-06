@@ -8,8 +8,8 @@ youtube: 'https://www.youtube.com/user/Baxaxx'
 twitter: 'https://twitter.com/BenBaxnick'
 
 skills:
-- title: Ruby Developer
-  description: I have been developing Ruby for 4 years and strive to maintain best practices.
+- title: Backend Developer
+  description: I have been developing reliable web services for over 6 years and strive to maintain best practices.
   icon: pe-7s-vector
 
 - title: AWS Proficient
@@ -17,7 +17,7 @@ skills:
   icon: pe-7s-help2
 
 - title: Communicator
-  description: Worked with production managers, business strategists, development peers, and junior developers across countless projects.
+  description: Technical lead. Worked with production managers, business strategists, development peers, and junior developers across countless projects.
   icon: pe-7s-airplay
 
 #
