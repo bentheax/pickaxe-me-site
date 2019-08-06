@@ -11,6 +11,14 @@ Resources:
     Type: "AWS::S3::Bucket"
     Properties:
       AccessControl: "PublicRead"
+      BucketName: "www.axnick.com.au"
+      WebsiteConfiguration:
+        RedirectAllRequestsTo:
+          HostName: !Ref RootBucket
+  NakedBucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      AccessControl: "PublicRead"
       BucketName: "axnick.com.au"
       WebsiteConfiguration:
         RedirectAllRequestsTo:
@@ -21,6 +29,8 @@ Resources:
       DistributionConfig:
         Aliases:
           - "ben.axnick.com.au"
+          - "www.axnick.com.au"
+          - "axnick.com.au"
         CustomErrorResponses:
           - ErrorCode: 404
             ResponseCode: 200
