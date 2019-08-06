@@ -5,7 +5,6 @@ language: ruby
 before_install:
   - pip install --user awscli
   - export PATH=$PATH:$HOME/.local/bin
-  - gem install -v 1.17.3 bundler --no-rdoc --no-ri
 script: make build
 after_success:
   - make deploy
