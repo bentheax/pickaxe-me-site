@@ -39,7 +39,7 @@ Resources:
         HttpVersion: "http2"
         Origins:
           - Id: "root"
-            DomainName: !GetAtt RootBucket.DomainName
+            DomainName: !GetAtt RootBucket.RegionalDomainName
             S3OriginConfig: {}
         ViewerCertificate:
           AcmCertificateArn: "arn:aws:acm:us-east-1:702788515874:certificate/b4ae9768-266d-410e-8c91-3fa49a15650c"
