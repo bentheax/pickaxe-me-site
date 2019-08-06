@@ -2,11 +2,10 @@ env:
   global:
     secure: 3Wf4dgTlcu9b5nJs8EIZuR1f7DVMYezH57l/EW70mS2Ss33LUNQgo5dIf8vMMgjWpA1wNImiSaAOdOSQvTaAPQUUVNU/HbNZBPoc8gRrZKP91DEmPgaAcgXUhNpgUlQ4wMn51qXyf4yImvsYpA09s3MlWSiAqDNLxgqRgoBJ8Qzbo+6QYv6qvwelYVhLSmfq6Syk1UxUv+nz2O7pZBrUPIO76A2AzFEjGTHSMZ4byPjqHGRH0cc4l0/P3awHe3wqCAGwCnATLUvEuGHRuAMmkp82iUKVuFScEW/9lVUjahYrtkVywRndyz2bBDMdPbuPb9bXzGah0semf4HNGHgt4mA8uOL27WVYTLZ59BJx3PoRRjE80GBH6DknxHbWJeHj0aqMDt1Tha0qvFz8E3beuG3iBsJkcLOGSnQH7zuv81NbWvfUri7EEUXVrOVN9aClI+fDYavJjrki/nOMFzLZi0oxcuaohKJ/HDBw/2W/sYoGKjF4bkzPoYn2wz2Rqo7L6/7LX2pJxXarGVDSVw0RTRB6aW53RvQ/zS7ZWkHPLqGFVeJxXMg/0v/xqZ0dJIUNYOP0ZqPlhWhGv/OFZGEauUU0wMycXIjf3GqFXWxYyVpHoP+3tcSi0lHY42/jSpYqIa4/Q/T0jGx3TbiQJRxjZAEl/V+vn3+2GI/VN7FSOUw=
 language: ruby
-rvm:
-  - 2.6.3
 before_install:
   - pip install --user awscli
   - export PATH=$PATH:$HOME/.local/bin
+  - gem install -v 1.17.3 bundler --no-rdoc --no-ri
 script: make build
 after_success:
   - make deploy
