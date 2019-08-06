@@ -21,6 +21,6 @@ watch:
 
 .PHONY: sync
 sync:
-	aws s3 sync $(PWD)/build/ s3://pickaxe.me \
+	aws s3 sync $(PWD)/build/ s3://ben.axnick.com.au \
 		--acl public-read \
 		--cache-control "max-age=10"
