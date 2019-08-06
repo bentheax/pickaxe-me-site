@@ -1,12 +1,11 @@
-# pickaxe.me
+# ben.axnick.com.au
 
-The main site. I'll start it out as a static blog type thing and see where it
-goes from there. That means this is a:
+My website with very minimal content. Primarily exists as proof that I can, in fact, maintain a website.
 
 - S3 bucket
 - CloudFront Distribution
 - Jekyll build configuration
-- Site source using a template (what can I say? FE dev isn't my strength)
+- Minimal content using a template
 
 ## Status
 
@@ -14,4 +13,5 @@ goes from there. That means this is a:
 
 ## Licensing
 
-This site is, at this point, heavily derivative of the [Sera Theme](https://themeforest.net/item/sera-onepage-multipurpose-html-template/17600013). Meaning that if you'd like to copy any design elements, you should purchase a license.
+This site is, at this point, heavily derivative of the [Sera Theme](https://themeforest.net/item/sera-onepage-multipurpose-html-template/17600013) for which I have purchased a license.
+If you re-use any porton of of this, you are also required to purchase a license.
