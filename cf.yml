@@ -40,5 +40,5 @@ Resources:
             DomainName: !GetAtt RootBucket.DomainName
             S3OriginConfig: {}
         ViewerCertificate:
-          AcmCertificateArn: "arn:aws:acm:ap-southeast-2:702788515874:certificate/1861ca33-8762-48ba-8270-89f381c28968"
+          AcmCertificateArn: "arn:aws:acm:us-east-1:702788515874:certificate/b4ae9768-266d-410e-8c91-3fa49a15650c"
           SslSupportMethod: "sni-only"
