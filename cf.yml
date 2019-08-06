@@ -15,14 +15,6 @@ Resources:
       WebsiteConfiguration:
         RedirectAllRequestsTo:
           HostName: !Ref RootBucket
-  NakedBucket:
-    Type: "AWS::S3::Bucket"
-    Properties:
-      AccessControl: "PublicRead"
-      BucketName: "axnick.com.au"
-      WebsiteConfiguration:
-        RedirectAllRequestsTo:
-          HostName: !Ref RootBucket
   Distribution:
     Type: "AWS::CloudFront::Distribution"
     Properties:
